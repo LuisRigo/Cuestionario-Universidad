@@ -21,7 +21,7 @@ window.onload = function () {
             gestionarXml(this);
         }
     };
-    xhttp.open("GET", "https://rawgit.com/LuisRigo/Cuestionario/master/PreguntasXML.xml", true);
+    xhttp.open("GET", "https://rawgit.com/LuisRigo/Cuestionario-Universidad/master/Ataulfo%20University%20Test/xml/PreguntasXML.xml", true);
     xhttp.send();
 	
 	
@@ -491,7 +491,7 @@ function comprobar() {
     }
     if (!checked) {
         document.getElementsByTagName("h3")[0].focus();
-        alert("Selecciona una opci髇 de la pregunta 1");
+        alert("Selecciona una opci贸n de la pregunta 1");
         return false;
     }
     //Pregunta 2
@@ -508,19 +508,19 @@ function comprobar() {
     }
     if (!checked) {
         document.getElementsByTagName("h3")[2].focus();
-        alert("Selecciona una opci髇 de la pregunta 3");
+        alert("Selecciona una opci贸n de la pregunta 3");
         return false;
     }
     //Pregunta 4
     if (f.elements[9].selectedIndex == 0) {
         f.elements[9].focus();
-        alert("Selecciona una opci髇 en la pregunta 4");
+        alert("Selecciona una opci贸n en la pregunta 4");
         return false;
     }
     //Pregunta 5
     if (f.elements[10].selectedIndex == 0) {
         f.elements[10].focus();
-        alert("Selecciona una o m醩 opciones en la pregunta 5");
+        alert("Selecciona una o m谩s opciones en la pregunta 5");
         return false;
     }
     //Pregunta 6
@@ -532,7 +532,7 @@ function comprobar() {
     //Pregunta 7
     if (f.elements[12].selectedIndex == 0) {
         f.elements[12].focus();
-        alert("Selecciona una o m醩 opciones en la pregunta 7");
+        alert("Selecciona una o m谩s opciones en la pregunta 7");
         return false;
     }
     //Pregunta 8
@@ -543,13 +543,13 @@ function comprobar() {
     }
     if (!checked) {
         document.getElementsByTagName("h3")[7].focus();
-        alert("Selecciona una opci髇 de la pregunta 8");
+        alert("Selecciona una opci贸n de la pregunta 8");
         return false;
     }
     //Pregunta 9
     if (f.elements[17].selectedIndex == 0) {
         f.elements[17].focus();
-        alert("Selecciona una o m醩 opciones en la pregunta 9");
+        alert("Selecciona una o m谩s opciones en la pregunta 9");
         return false;
     }
     //Pregunta 10
@@ -560,7 +560,7 @@ function comprobar() {
     }
     if (!checked) {
         document.getElementsByTagName("h3")[9].focus();
-        alert("Selecciona una opci髇 de la pregunta 10");
+        alert("Selecciona una opci贸n de la pregunta 10");
         return false;
     }
     return true;
